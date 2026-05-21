@@ -8,8 +8,8 @@
     "ios": "expo start --ios",
     "web": "expo start --web",
     "build:web": "npx expo export --platform web",
-    "predeploy": "npm run build:web && cp -r assets dist/assets && node scripts/fix-base-path.js",
-    "deploy": "node ./node_modules/gh-pages/bin/gh-pages.js -d dist -r https://github.com/yijshen8d/MegExam.git -b gh-pages -m \"deploy: update [skip ci]\""
+    "predeploy": "npm run build:web && cp -r assets dist/assets && node scripts/fix-base-path.js && touch dist/.nojekyll",
+    "deploy": "node ./node_modules/gh-pages/bin/gh-pages.js -d dist --dotfiles -r https://github.com/yijshen8d/MegExam.git -b gh-pages -m \"deploy: update [skip ci]\""
   },
   "dependencies": {
     "@react-native-async-storage/async-storage": "2.2.0",
