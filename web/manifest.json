@@ -1,0 +1,26 @@
+{
+  "name": "Meg's Exam Prep",
+  "short_name": "Meg Exam",
+  "description": "Maryland PSI 3.0 Real Estate Salesperson Exam Prep",
+  "start_url": "/MegExam/",
+  "scope": "/MegExam/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "theme_color": "#007AFF",
+  "background_color": "#f5f5f5",
+  "lang": "en",
+  "icons": [
+    {
+      "src": "/MegExam/assets/icon.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/MegExam/assets/icon.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
