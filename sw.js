@@ -1,4 +1,4 @@
-const CACHE_NAME = 'meg-exam-v1';
+const CACHE_NAME = 'meg-exam-v2';
 const ASSETS_TO_CACHE = [
   '/MegExam/',
   '/MegExam/index.html',
